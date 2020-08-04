@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0ab7a9e-8d05-4163-8e2a-873fc654d161" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1fd9sIB3T2dmQN5BfxSmROPyATD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Reclever.com\RecleverLogger\logger\repository" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2352" y="557" key="#Go_Modules" timestamp="1596537940768">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2352" y="557" key="#Go_Modules/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1596537940768" />
+    <state x="2152" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596543223973">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2152" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1596543223973" />
+    <state x="2333" y="525" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596538714075">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2333" y="525" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1596538714075" />
+    <state x="2061" y="370" width="998" height="708" key="SettingsEditor" timestamp="1596548307073">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2061" y="370" width="998" height="708" key="SettingsEditor/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1596548307073" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1596547963913">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864/1920.0.2560.1440@1920.0.2560.1440" timestamp="1596547963913" />
+  </component>
+</project>
