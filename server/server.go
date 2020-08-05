@@ -41,6 +41,7 @@ func New(ctx context.Context, errCh chan<- error, config *Config, logger logger.
 		config: config,
 		errCh:  errCh,
 		stopCh: make(chan struct{}, 1),
+		logger: logger,
 	}
 
 	if ctx == nil {
@@ -62,7 +63,7 @@ func New(ctx context.Context, errCh chan<- error, config *Config, logger logger.
 		if err != nil {
 			return nil, customerrs.ServerFailToListenPortErr(config.Port, err)
 		}
-		logger.Logf("Created new listener on port = ", config.Port)
+		logger.Logf("Created new listener on port = %s", config.Port)
 	}
 	{
 		server.router = mux.NewRouter()

@@ -94,7 +94,7 @@ func createLogger(telegramBot externallogger.ExternalLogger) logger.Logger {
 		defaultLogger.Log("msg", "Logger db initialized")
 		defaultLogger.Log("msg", "Internal logger initialized")
 
-		l = logger.NewLogger(defaultLogger, telegramBot)
+		l = logger.New(defaultLogger, telegramBot)
 	}
 	l.Logf("Logger created")
 	return l

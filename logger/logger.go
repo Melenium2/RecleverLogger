@@ -17,7 +17,7 @@ type SuperLogger struct {
 	external externallogger.ExternalLogger
 }
 
-func NewLogger(log murlog.Logger, external externallogger.ExternalLogger) Logger {
+func New(log murlog.Logger, external externallogger.ExternalLogger) Logger {
 	return &SuperLogger{
 		logger: log,
 		external: external,
@@ -36,7 +36,7 @@ func (s SuperLogger) Logs(log ...interface{}) error {
 func (s SuperLogger) Logf(message string, log ...interface{}) error {
 	var msg string
 	if len(log) > 0 {
-		msg = fmt.Sprintf(message, log)
+		msg = fmt.Sprintf(message, log...)
 	} else {
 		msg = message
 	}

@@ -5,6 +5,8 @@ import (
 	"errors"
 	"github.com/RecleverLogger/logger"
 	"net/http"
+	"strings"
+	"time"
 )
 
 type Handler struct {
@@ -28,13 +30,19 @@ func (s *Service) Log(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	t := time.Now().UTC()
+	log.Time = t
+	log.Timestamp = t.Unix()
+
 	if err := s.db.Save(r.Context(), log); err != nil {
 		s.logger.Logf("Error from db while saving log, %v", err)
 		writeError(w, http.StatusInternalServerError, err)
 		return
 	}
-	s.logger.Logs(log)
 
+	if strings.ToLower(log.Type) == "error" {
+		s.logger.Logs(log)
+	}
 
 	writeResponse(w, http.StatusOK, "Recorded")
 }
